@@ -9,8 +9,5 @@ export class AppComponent {
   title = 'angular-todo-app';
 
   constructor() {
-    setTimeout(() => {
-      this.title = "Angular Todo App";
-    }, 2000);    
   }
 }
