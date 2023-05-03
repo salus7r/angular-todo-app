@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+	selector: "app-root",
+	templateUrl: "./app.component.html",
+	styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = 'angular-todo-app';
+	title = "angular-todo-app";
 
-  constructor() {
-  }
+	constructor() {
+		// TODO document why this constructor is empty
+	}
 }
